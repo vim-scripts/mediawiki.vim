@@ -1,0 +1,5 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3970
+
+This holds a syntax highlighter for MediaWiki-based projects, mostly Wikipedia.
+
+Files ending in .wiki will be highlighted. To force highlighting on any file, run :setfiletype mediawiki.
