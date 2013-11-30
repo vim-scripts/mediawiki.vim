@@ -6,16 +6,11 @@ Files ending in `.wiki` will be highlighted. To force highlighting on any file, 
 
 ### Install for pathogen
 
-``` sh
-cd ~/.vim/
-git submodule add git://github.com/chikamichi/mediawiki.vim.git bundle/mediawiki
-```
-
-### Manual install
+You can use Pathogen, Vundle or any plugin manager you like. Or you can install by hand:
 
 ``` sh
 cd ~/.local/src
-git clone git://github.com/chikamichi/mediawiki.vim.git
+git clone git://github.com/chikamichi/mediawiki.vim.git # or download/extract mediawiki.tar.gz
 cp -R mediawiki.vim/syntax/* ~/.vim/syntax/
 cp -R mediawiki.vim/ftdetect/* ~/.vim/ftdetect/
 ```
@@ -87,4 +82,6 @@ setlocal fdm=expr
 See comments within `syntax/vim-mediawiki.vim`. Basically this is public domain.
 
 Thanks to folks at http://en.wikipedia.org/wiki/Wikipedia:Text_editor_support!
+
+Static releases available at http://www.vim.org/scripts/script.php?script_id=3970.
 
