@@ -15,9 +15,9 @@ cp -R mediawiki.vim/syntax/* ~/.vim/syntax/
 cp -R mediawiki.vim/ftdetect/* ~/.vim/ftdetect/
 ```
 
-### Additionnal, manual settings
+### Additional, manual settings
 
-This plugin is not intended to enforce settings, but some additionnal setups may fit well with wiki editing. Feel free to read through each and pick the relevant ones for your needs. One may add them in either `.vimrc` or in a file under `ftplugin/mediawiki.vim` (for instance).
+This plugin is not intended to enforce settings, but some additional setups may fit well with wiki editing. Feel free to read through each and pick the relevant ones for your needs. One may add them in either `.vimrc` or in a file under `ftplugin/mediawiki.vim` (for instance).
 
 Wikipedia articles often only have line-breaks at the end of each paragraph, a situation Vim by default doesn't handle as other text editors. Save the following lines to make it as you may be used to from Notepad:
 
